@@ -1,0 +1,14 @@
+Steps:
+Import Libraries
+Prepare the Data
+Create and Train the Model
+Make Predictions
+Evaluate the Model
+Explanation:
+Import Libraries: We import the necessary libraries including pandas for data manipulation, numpy for numerical operations, and sklearn for machine learning tools.
+Prepare the Data: We create a sample dataset and convert it into a pandas DataFrame. We then separate the predictors (X) from the target variable (Y).
+Split the Data: We split the data into training and testing sets to evaluate the model's performance.
+Create and Train the Model: We create a LinearRegression model and train it using the training data.
+Make Predictions: We use the trained model to make predictions on the test data.
+Evaluate the Model: We evaluate the model using Mean Squared Error (MSE) and R-squared (R2) metrics.
+Display the Coefficients: We display the coefficients and intercept of the trained model.
