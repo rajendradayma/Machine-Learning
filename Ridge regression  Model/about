@@ -1,0 +1,1 @@
+Ridge regression gets its name from the concept of adding a "ridge" or regularization term to the ordinary least squares (OLS) regression method. The term "ridge" refers to the additional constraint placed on the size of the coefficients in the regression model.
