@@ -6,7 +6,7 @@ Hard Voting: The classifier predicts the class label that has been predicted the
 Soft Voting: The classifier predicts the class label based on the average of predicted probabilities, favoring the classes with higher confidence levels across models.
 Concept:
 Hard Voting: In this method, each model in the ensemble votes for a class, and the class that gets the majority of votes is the final prediction.
-![image+1] (https://www.researchgate.net/publication/351941675/figure/fig7/AS:1028438324441103@1622210212985/An-overview-of-the-voting-ensemble-classifier-built-from-SVM-and-RF-base-models.png)
+![image] (https://www.researchgate.net/publication/351941675/figure/fig7/AS:1028438324441103@1622210212985/An-overview-of-the-voting-ensemble-classifier-built-from-SVM-and-RF-base-models.png)
 Example: If three classifiers predict labels as [A, B, A], the Voting Classifier with hard voting will choose A, as it has the majority of votes.
 
 Soft Voting: Here, each classifier outputs the probability of each class, and the class with the highest averaged probability is chosen.
