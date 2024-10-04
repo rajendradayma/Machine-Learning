@@ -19,7 +19,8 @@ Feature Importance: By examining the nodes, you can see which features are most 
 Non-Linear Boundaries: Decision trees can capture non-linear relationships between the features and the target variable, unlike linear models.
 Hyperparameters in Decision Trees:
 Criterion:
-![Screenshot]("C:\Users\User\OneDrive\Pictures\Screenshots\Screenshot 2024-10-05 030015.png")
+![Screenshot](./images/Screenshot_2024_10_05_030015.png)
+
 Gini Impurity: Measures how often a randomly chosen element would be incorrectly labeled. Lower values are better.
 Entropy (Information Gain): Measures the disorder or uncertainty in the dataset. Lower entropy implies higher purity after splitting.
 Max Depth: The maximum depth of the tree (i.e., the number of splits or layers). Limiting the depth helps avoid overfitting.
