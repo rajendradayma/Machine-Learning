@@ -8,7 +8,7 @@ Root Node: The topmost node that represents the entire dataset and gets split in
 Internal Nodes: Nodes that represent a feature or attribute upon which the dataset is split.
 Leaf Nodes: Terminal nodes that represent the outcome or class label for classification or predicted value for regression.
 Splitting: The process of dividing the dataset into smaller subsets based on feature values. Different splitting criteria are used depending on the problem (e.g., Gini Index, Entropy for classification).
-"C:\Users\User\OneDrive\Pictures\Screenshots\Screenshot 2024-10-05 030015.png"
+
 Pruning: The technique of reducing the size of the tree by removing sections that have little importance. This prevents overfitting, where the model becomes too complex and performs well on training data but poorly on new, unseen data.
 Types of Decision Trees:
 Classification Trees: Used when the target variable is categorical (e.g., predicting if an email is spam or not).
@@ -19,7 +19,7 @@ Feature Importance: By examining the nodes, you can see which features are most 
 Non-Linear Boundaries: Decision trees can capture non-linear relationships between the features and the target variable, unlike linear models.
 Hyperparameters in Decision Trees:
 Criterion:
-
+![Screenshot]("C:\Users\User\OneDrive\Pictures\Screenshots\Screenshot 2024-10-05 030015.png")
 Gini Impurity: Measures how often a randomly chosen element would be incorrectly labeled. Lower values are better.
 Entropy (Information Gain): Measures the disorder or uncertainty in the dataset. Lower entropy implies higher purity after splitting.
 Max Depth: The maximum depth of the tree (i.e., the number of splits or layers). Limiting the depth helps avoid overfitting.
