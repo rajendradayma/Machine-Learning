@@ -28,8 +28,8 @@ Example: voting='soft'
 
 A list of weights for each classifier. By default, all classifiers are given equal weight (1). You can assign higher weights to classifiers that you believe are more important.
 Example: weights=[2, 1, 3] would give more weight to the first and third classifiers.
-4. n_jobs:
 
+4. n_jobs:
 Specifies the number of cores to use for parallel processing. If set to -1, all available processors will be used.
 Example: n_jobs=-1 (use all cores).
 
