@@ -13,8 +13,7 @@ Pruning: The technique of reducing the size of the tree by removing sections tha
 Types of Decision Trees:
 Classification Trees: Used when the target variable is categorical (e.g., predicting if an email is spam or not).
 Regression Trees: Used when the target variable is continuous (e.g., predicting house prices).
-                                                                    
-                                                                    "C:\Users\User\OneDrive\Pictures\Screenshots\Screenshot 2024-10-05 030015.png"
+"C:\Users\User\OneDrive\Pictures\Screenshots\Screenshot 2024-10-05 030015.png"
 
                                                                     
                                                                     
