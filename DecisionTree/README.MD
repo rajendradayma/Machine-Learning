@@ -39,7 +39,7 @@ sqrt(n) or log2(n) for large datasets is common for classification trees.
 Max Leaf Nodes: Limits the number of leaf nodes in the tree. A smaller number of leaf nodes can make the model more general and reduce overfitting.
 
 Random State: Controls the randomness involved in certain aspects like the data shuffling before splitting. Setting a fixed seed ensures reproducibility of results.
-
+![image](https://th.bing.com/th/id/R.28e7be72f16e894b6b8cc0268e0d716a?rik=%2bOUzTjWSYY7NXQ&riu=http%3a%2f%2fscikit-learn.org%2f0.18%2f_images%2fsphx_glr_plot_adaboost_regression_thumb.png&ehk=yE1O03jEM8zli1hskQ94mz6ejk0HNsb%2bcvczdzhXg%2f8%3d&risl=&pid=ImgRaw&r=0)
 Advantages:
 Easy to interpret and visualize.
 Handles both categorical and numerical data.
