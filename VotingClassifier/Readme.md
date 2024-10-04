@@ -13,21 +13,26 @@ Soft Voting: Here, each classifier outputs the probability of each class, and th
 
 Example: Suppose you have three classifiers, and their predicted probabilities for class A are [0.7, 0.8, 0.6]. The average probability for class A is 0.7, and this averaged value is used to make the prediction.
 Hyperparameters of Voting Classifier
+
 1. estimators:
 A list of tuples, where each tuple consists of a string name and the classifier object. The list can contain multiple classifiers (e.g., Decision Tree, Logistic Regression, SVM, etc.).
 
 Example: estimators=[('lr', LogisticRegression()), ('svc', SVC()), ('rf', RandomForestClassifier())]
+
 2. voting:
 Specifies the voting type. It can be either:
 'hard': Uses majority voting for class labels.
 'soft': Uses averaged predicted probabilities for voting.
 Example: voting='soft'
 3. weights (Optional):
+
 A list of weights for each classifier. By default, all classifiers are given equal weight (1). You can assign higher weights to classifiers that you believe are more important.
 Example: weights=[2, 1, 3] would give more weight to the first and third classifiers.
 4. n_jobs:
+
 Specifies the number of cores to use for parallel processing. If set to -1, all available processors will be used.
 Example: n_jobs=-1 (use all cores).
+
 5. flatten_transform (default True):
 Used for soft voting. If True, the predicted probabilities from each base classifier will be flattened into a single array.
 6. verbose (default False):
