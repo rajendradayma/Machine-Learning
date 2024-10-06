@@ -1,6 +1,6 @@
 Hyperparameters for Polynomial Regression:
 Polynomial regression has a few key hyperparameters:
-
+![image] https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/polynomial-regression-3.png
 Degree of the Polynomial (degree):
 
 This is the most important hyperparameter.
@@ -12,7 +12,6 @@ Example: PolynomialFeatures(degree=2) will create a second-degree polynomial (qu
 Tuning: You can tune this hyperparameter to achieve a balance between bias and variance. A higher degree might capture the data better but may also overfit.
 
 Interaction Only (interaction_only):
-
 When True, only interaction terms are produced (i.e., terms like 𝑥1× 𝑥2x1 × x2), not power terms like 
 𝑥12x12.
 Default: False (i.e., the model includes both power and interaction terms).
