@@ -1,6 +1,6 @@
 Hyperparameters for Polynomial Regression:
 Polynomial regression has a few key hyperparameters:
-![ie] https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/polynomial-regression-3.png
+![ie] (https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/polynomial-regression-3.png)
 Degree of the Polynomial (degree):
 
 This is the most important hyperparameter.
